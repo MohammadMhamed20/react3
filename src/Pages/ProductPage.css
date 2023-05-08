@@ -1,0 +1,44 @@
+.button-container button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.Button {
+  width: 200px;
+  height: 200px;
+  margin-right: 150px;
+  background-color: lightcoral !important;
+  border: 1px solid lightcoral !important;
+}
+.ButtonB {
+  width: 200px;
+  height: 200px;
+  margin-right: 300px;
+  background-color: lightcoral !important;
+  border: 1px solid lightcoral !important;
+}
+.ButtonC {
+  width: 200px;
+  height: 200px;
+  margin-right: 40px;
+  background-color: lightcoral !important;
+  border: 1px solid lightcoral !important;
+}
+.action__items {
+  display: flex;
+  width: 400px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.actionButton {
+  width: fit-content;
+  margin-left: 40px;
+  outline: none;
+  padding: 10px;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 150ms ease-in-out;
+}

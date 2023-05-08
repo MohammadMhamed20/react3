@@ -1,0 +1,21 @@
+.item__container {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 10px;
+}
+.action__buttons {
+  width: 250px;
+  justify-content: space-between;
+  display: flex;
+}
+.action__buton {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+  cursor: pointer;
+}
+.item__container > img {
+  width: 100px;
+}
